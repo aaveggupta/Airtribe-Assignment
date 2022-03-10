@@ -1,0 +1,20 @@
+.card,
+.cardlist__addcard,
+.statuslist__addstatus {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1.5px solid rgb(173, 173, 173);
+  width: 16rem;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.2px 1.2px 1.9px;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  word-break: break-all;
+}
+
+.card > h4 {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
